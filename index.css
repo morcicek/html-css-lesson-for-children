@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #edf6e5;
+}
+/*Ana çerçeve*/
+.ana-kutu {
+  width: 80%;
+  height: 90vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b5eaea;
+}
+/*Header ve navbar*/
+.header {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  background-color: #f38ba0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+}
+.header ul {
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header ul li {
+  float: left;
+  padding: 20px 50px;
+  transition: border 0.2s linear;
+  font-size: 20px;
+}
+.header ul li:hover {
+  border-bottom: 1px solid white;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+/*Profil resmi*/
+.profil-resmi {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.profil-resmi img {
+  width: 100%;
+  border-radius: 50%;
+}
+/*İçerik*/
+.icerik {
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+  padding: 50px 30px;
+  color: rgb(87, 87, 87);
+  text-align: center;
+}
+/*Bana ulaş sayfası*/
+#bana-ulas-metin {
+  width: 90%;
+  padding: 20px;
+  color: rgb(90, 90, 90);
+  text-align: center;
+  margin: 40px auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+}
+.bana-ulas-ana-kutu {
+  width: 90%;
+  height: 200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bana-ulas-kutu {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+.kutu-icerik {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.kutu-icerik i {
+  font-size: 30px;
+}
+.kutu-icerik p {
+  padding: 20px;
+}
+.kutu-icerik a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s linear;
+}
+.kutu-icerik a:hover {
+  color: gray;
+}
+#github-icon {
+  color: black;
+}
+#twitter-icon {
+  color: #1da1f2;
+}
+#linkedin-icon {
+  color: #0072b1;
+}
